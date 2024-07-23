@@ -1,1 +1,1 @@
-This are practice projects
+These are practice projects
