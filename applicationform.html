@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <form action="">
+            <h1>Registration Form</h1>
+            <p>First Name <input type="text" name="fname" placeholder="Enter your first name"></p>
+            <p>Last name <input type="text" name="lname" placeholder="Enter your last name"></p>
+            <p>Age <input type="number"></p>
+            
+            <p>Gender <select id="Gender" name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="other">other</option>
+            </select> </p>
+            <p>Email address <input type="email" placeholder="Enter your email" id="email" name="email"></p>
+            
+            <p>Position Available <input type="radio" name="Junior Developer" id="Junior Developer" value="Junior Developer">
+               <label for="Junior Developer">Junior Developer</label>
+                <input type="radio" name="Mid-Level Developer" id="Mid-Level Developer" value="Mid-Level Developer">
+               <label for="Mid-Level Developer">Mid-Level Developer</label>
+               <input type="radio" name="Senior Developer" id="Senior Developer" value="Senior Developer">
+               <label for="Senior Developer">Senior Developer</label></p>
+               <p>Programming Language <input type="checkbox" id="lan1" name="lang" value="Java">
+               <label for="lan1">Java</label>
+               <input type="checkbox" id="lan2" name="lang" value="JavaScript">
+            <label for="lan2">JavaScript</label>
+            <input type="checkbox" id="lan3" name="lang" value="Python">
+           <label for="lan3">Python</label></p>
+           <p> password<input type="password"></p>
+           <p>Confirm password <input type="password" placeholder="verify your password"></p>
+           <label for="folderUpload">Select a folder to upload:</label><br>
+           <input type="file" id="folderUpload" name="folderUpload"><br>
+           <br><button type="submit">submit</button> <button type="reset">Reset</button>
+           
+           
+            
+        </form>
+    
+    
+    </body>
+</html>
